@@ -1,0 +1,48 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="HelpStyle.css" />
+    </head>
+    <body>
+        <div>
+            <h1>
+                Arquivo de dados
+            </h1>
+        </div>
+    <div class="definition">
+        São arquivos que contém os dados coletados pelos dispositivos separados e formatados para inserção dos mesmos à base de dados.
+    </div>
+        <div>
+            <p class="firstp">
+                Arquivos de dados podem possuir diferentes formatos e <a href="SeparationHelp.html">separadores</a> e, portanto, a fim de evitar a obstrução
+                da inserção dos dados à base de dados foi necessário generalizar o aplicativo definindo-se a identificação
+                de formatos e separadores como papel do usuário. Pode-se encontrar a interface de seleção de separadores no
+                seguinte caminho: <i>Arquivo > <a href="SeparationHelp.html">Definir separadores</a></i>.
+            </p>
+            <p class="text">
+                Além disso, a <a href="DateFormatHelp.html">formatação de datas</a> entre arquivos de dados distintos podem variar e portanto
+                foi adotada a mesma solução utilizada para os diferentes formatos e separadores de dados.
+            </p>
+            <p class="text">
+                Para selecionar um arquivo de dados o usuário deve utilizar o botão <b>Arquivo</b> ou executar a operação
+                pelo caminho <i>Arquivo > Abrir</i>. Caso o usuário não tenha definido um separador de dados, o aplicativo não
+                importará o arquivo para sua interface (visto que este não foi informado sobre como tratar os dados) e apresentará
+                uma mensagem de aviso. Caso contrário, os dados serão apresentados na sessão "Dados do arquivo importado".
+            <p class="centeredImg">
+                <img src="fileinterface.jpg" alt="dados"/>
+            </p>
+            <p class="subtitle">
+                <b>Figura 1.</b> Dados de um arquivo importados para a interface do aplicativo.
+            </p>
+            <p class="text">
+                Para fechar o arquivo o usuário poderá utilizar o caminho <i>Arquivo > Fechar</i>.
+            </p>
+        </div> 
+    </body>
+</html>

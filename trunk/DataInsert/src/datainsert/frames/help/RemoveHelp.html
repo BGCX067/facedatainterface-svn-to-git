@@ -1,0 +1,68 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="HelpStyle.css" />
+    </head>
+    <body>
+        <div>
+            <h1>
+                Remoção
+            </h1>      
+        </div>
+        <div class="definition">
+            A remoção é uma ferrameta implementada para caso haja inserção incorreta ou dados incorretos 
+            na base de dados. 
+        </div>
+        <div>
+            <p class="firstp">
+                A <a href="DatabaseHelp.html"> base de dados </a> relacionada aos dados angariados pelo experimento
+                possui uma grande quantidade de registros e, portanto, inviabiliza-se a manipulação atômica das tuplas.
+                Assim, a remoção de dados foi implementada de tal forma que esta utilize um filtro de informações pré-determinado
+                pelo usuário final a fim de remover do armazenamento persistente um conjunto de registros abrangido por tal filtro.
+            </p>
+            <p class="text">
+                Os elementos do filtro que o usuário final pode determinar são os respectivos:
+                <ul class="circ">
+                    <li><b> Intervalo de data </b>
+                        <ul class="nest">
+                        <li class="nest">
+                            Se o usuário final desejar excluir os dados de apenas uma data, o intervalo será
+                            da data desejada até a mesma.
+                        </li>    
+                        </ul>
+                    <li> <b>Valor do dado a ser removido </b></li>
+                    <li> <b>Dispositivos </b></li>
+                </ul>
+            </p> 
+            <p class="text">
+                Antes de iniciar a remoção o usuário deverá estar conectado ao banco de dados e deverá ter
+                selecionado uma tabela de dados para aplicar a remoção a mesma.
+            </p>
+            <p class="text">
+                Pode-se encontrar a interface de remoção de registros no caminho <i> Dados > Remover </i>.
+                A interface encontrada será a seguinte:
+            </p>
+            <p class="centeredImg">
+                <img src="remocao.jpg" alt="remocao"/>
+            </p>
+            <p class="subtitle">
+                <b>Figura 1.</b> Interface de remoção de registros.
+            </p>
+            <p class="text">
+                Notas:
+            <ul>
+                <li> Para remover todos os dados deve-se utilizar o caracter '*' em algum dos campos de dados; </li>
+                <li> Para remover um dado específico deve-se utilizar apenas um campo de dados;</li>
+                <li> Para remover um intervalo de dados específico deve-se utilizar os dois campos de dados.</li>
+            </ul>
+                
+            </p>
+        </div>
+    </body>
+</html>
